@@ -68,6 +68,17 @@ class Proyectos extends CI_Controller
         $this->load->view('registrar_proyectos',$data);
     }
 
+
+    function listar()
+    {
+        $this->load->model('Proyecto');
+        $proyectos = $this->Proyecto->get_all();
+        $data = array();
+        $data['title'] = 'Listar proyectos';
+        $data['proyectos'] = $proyectos;
+        $this->load->helper('url');
+        $this->load->view('listar_proyectos', $data);
+    }
     
 }
 

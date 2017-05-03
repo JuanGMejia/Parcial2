@@ -29,6 +29,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="<?= site_url('Proyectos/registrar') ?>">Registrar</a></li>
+                  <li><a href="<?= site_url('Proyectos/listar') ?>">Listar</a></li>
                 </ul>
               </li>
             </ul>

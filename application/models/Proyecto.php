@@ -60,4 +60,11 @@ class Proyecto extends CI_Model {
         }
     }
 
+    public function get_all(){
+    
+        $this->db->select('*')->from('proyecto')->order_by('fechaInicio');
+        $query= $this->db->get();
+        return $query->result();
+    }
+
 }

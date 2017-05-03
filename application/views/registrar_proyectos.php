@@ -21,7 +21,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Proyectos</a>
+            <a class="navbar-brand" href="<?= site_url('Home') ?>">Proyectos</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -29,7 +29,8 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profesores<span class="caret"></span></a>
                 <ul class="dropdown-menu">
 
-                  <li><a href="../Proyectos/registrar">Registrar</a></li>
+                  <li><a href="<?= site_url('Proyectos/registrar') ?>">Registrar</a></li>
+                  <li><a href="<?= site_url('Proyectos/listar') ?>">Listar</a></li>
 
                 </ul>
               </li>
