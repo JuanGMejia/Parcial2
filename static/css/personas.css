@@ -1,0 +1,30 @@
+tr.sexo-M{
+    background-color: #D8534F;
+    color: #FFF;
+}
+
+tr.sexo-F{
+    background-color: #FFC0CB;
+}
+
+th{
+    background-color: #292B2C;
+    color: #FFF;
+}
+
+tfoot td{
+    background-color: #F2F2F2;
+    font-weight: bold;
+}
+
+td{
+    border-color: #292B2C;
+}
+
+.msg{
+	color: green; font-weight: bold; padding-top: 6px;
+}
+
+.error{
+	color: red; font-weight: bold; padding-top: 6px;
+}
